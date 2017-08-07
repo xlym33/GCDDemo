@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DispatchTest.h"
 
 @implementation ViewController
 
@@ -14,6 +15,9 @@
     [super viewDidLoad];
 
     // Do any additional setup after loading the view.
+    
+    DispatchTest *test = [[DispatchTest alloc] init];
+    [test test1];
 }
 
 
